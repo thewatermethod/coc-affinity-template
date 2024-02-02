@@ -1,9 +1,9 @@
 on:
-  push:
+  pull_request:
     branches:
     - main
 jobs:
-  job_id:
+  virus_scan:
     runs-on: "ubuntu-________"
     steps:
       - uses: "hugoalh/scan-virus-ghaction@<Tag>"
