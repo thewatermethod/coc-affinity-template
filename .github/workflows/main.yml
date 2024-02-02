@@ -6,4 +6,4 @@ jobs:
   virus_scan:
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "hugoalh/scan-virus-ghaction@<Tag>"
+      - uses: hugoalh/scan-virus-ghaction@v0.20.1
